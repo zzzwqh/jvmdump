@@ -1,5 +1,5 @@
 ## 实现功能
-通过 Prometheus 监控 Jvm 指标，拉取到 Jvm Heap 堆内存水位
+通过 Prometheus 监控 Pod Jvm 指标，拉取到 Jvm Heap 堆内存水位
 根据配置的阈值提前生成 dump 文件并上传到 OSS 
 并通过钉钉 Webhook 发送告警
 
